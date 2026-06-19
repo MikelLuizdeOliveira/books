@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Interesses</title>
+</head>
+
+<body>
+
+    <h1>Cadastro de Interesses</h1>
+
+    <p>Nome do aluno:Mikel Luiz</p>
+
+    <img src="images.3.jfif" alt="300" width="300">
+
+    <br><br>
+
+    <form action="https://nic.ifrn.edu.br/aulas/atividade_03/" method="post">
+
+        <!-- Nome -->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <br><br>
+
+        <!-- Curso -->
+        <p>Qual é o seu curso?</p>
+
+        <input type="radio" name="curso" value="Informática">
+        Informática <br>
+
+        <input type="radio" name="curso" value="Administração">
+        macanica <br>
+
+        <input type="radio" name="curso" value="Eletrotécnica">
+        Eletromecanica
+
+        <br><br>
+
+        <!-- Interesses -->
+        <p>Quais assuntos você tem interesse?</p>
+
+        <input type="checkbox" name="interesses[]" value="academia">
+        academia <br>
+
+        <input type="checkbox" name="interesses[]" value="futebol">
+        futebol <br>
+
+        <input type="checkbox" name="interesses[]" value="tecnologia">
+        Tecnologia
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+
+    </form>
+
+</body>
+
+</html>
